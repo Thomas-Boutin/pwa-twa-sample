@@ -19,6 +19,12 @@ img {
   left: 1px;
 }
 
+.show-toast {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
 @media (orientation: landscape) {
   img {
     height: 100%;
