@@ -50,5 +50,5 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
 const showToast = document.querySelector('.show-toast');
 showToast.addEventListener('click', (e) => {
-  document.Bridge.showToast();
+  Bridge.showToast();
 });
