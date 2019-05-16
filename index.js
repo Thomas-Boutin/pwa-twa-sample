@@ -52,3 +52,8 @@ const showToast = document.querySelector('.show-toast');
 showToast.addEventListener('click', (e) => {
   Bridge.showToast();
 });
+
+const greet = document.querySelector('.greet');
+greet.addEventListener('click', (e) => {
+  alert(Bridge.greet("Bob"));
+});

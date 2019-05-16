@@ -25,6 +25,12 @@ img {
   right: 1px;
 }
 
+.greet {
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+}
+
 @media (orientation: landscape) {
   img {
     height: 100%;
